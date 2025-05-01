@@ -1,0 +1,153 @@
+*{
+    font-family: 'poppins', serif;
+}
+
+body {
+ background-color: #f4f5fb;
+
+}
+
+.page-title{
+    display:flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 45%;
+    i {
+        font-size: 3rem;
+        color: #ca3883;
+    }
+    span {
+        margin-left: 1rem;
+        font-size: 3rem;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: #374151;
+    }
+} 
+
+#list{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.705);
+    align-self: center;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    padding: 80px 0 0 0;
+    flex-direction: column;
+    
+}
+
+
+h1 { 
+    display: block;
+    width: 100%;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+main {
+    padding: 1rem 5rem; 
+    border-radius: 10px;
+}
+
+#quantity {
+    width: 7vw;
+    border:#CA3884 1px solid;
+    margin-left: 3px;
+    border-radius: 10px;
+    height: 35px;
+    
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #ca3883ce ;
+    font-size: large;
+    margin-left: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    border: none;
+}
+input {
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 6px;
+    height: 35px;
+    
+    
+}
+
+#newItem{
+    width: 20rem;
+    border:#CA3884 1px solid
+} 
+
+#storedItems {
+ width: 100%;
+}
+
+.addedItem {
+    height: 40px;
+    margin-top: 2.5vh;
+    box-sizing: border-box;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    min-width: 13rem;
+    display: flex;
+    text-transform: capitalize;
+    
+}
+
+.remove-icon {
+    height: 20px;
+    width: 20px;
+
+}
+
+.check-icon {
+    height: 20px;
+    width: 15px;
+}
+
+#item-list{
+font-size: larger;
+
+min-width: 60vh;
+width: fit-content;
+height: fit-content;
+align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #ca3883 ;
+}
+
+div.icon-group > i:hover{
+cursor:pointer;
+}
+div.icon-group > i:active{
+    opacity: 0.5;
+}
